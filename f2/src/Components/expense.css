@@ -1,0 +1,38 @@
+
+.expenses-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .expense-form, .expense-list {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  input[type="text"], input[type="number"], input[type="date"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
